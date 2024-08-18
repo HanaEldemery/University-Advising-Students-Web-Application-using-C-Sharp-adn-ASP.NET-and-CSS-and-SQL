@@ -1,0 +1,253 @@
+﻿body {
+    height: fit-content;
+    margin: 0;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 32px;
+    font-family: Inter;
+    background: #fcfcfc;
+}
+
+.formContainer {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    background: #fcfcfc;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+}
+
+h1{
+    font-family: Inter;
+}
+
+    form div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+    }
+
+        form div .input {
+            width: 480px;
+            border-radius: 10px;
+            outline: none;
+            border: 0px;
+            box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.05);
+            height: 35px;
+            padding-left: 10px;
+            font-size: 16px;
+        }
+
+        form div span {
+            width: 1px !important;
+            box-shadow: none !important;
+            align-self: center;
+            margin-right: 30px;
+        }
+
+        form div .button {
+            border-radius: 10px;
+            background: #0E0C0A;
+            color: #fff;
+            font-size: 16px;
+            padding: 10px;
+            border: 0px;
+            outline: none;
+            width: 90px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        form div label {
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+table {
+    font-family: Inter, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    table td, table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #f2f2f2;
+        text-align: center;
+    }
+
+    table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #000;
+        color: white;
+    }
+
+form #home {
+    border-radius: 10px;
+    background: #0E0C0A;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: 0px;
+    outline: none;
+    width: 90px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 92.5%;
+}
+
+#LoginBody {
+    background: rgb(189,221,242);
+    background: linear-gradient(90deg, rgba(189,221,242,1) 0%, rgba(31,108,172,1) 60%);
+    height: fit-content;
+    margin: 0;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 32px;
+    font-family: Inter;
+    min-width: 100%;
+}
+
+    #LoginBody form {
+        width: 430px;
+        height: 650px;
+        box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.5);
+        background: #232C33;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+    }
+
+        #LoginBody form #adminLoginHeader {
+            color: #fcfcfc;
+            font-size: 40px;
+            font-weight: 600;
+            font-family: Inter;
+            margin-top: 40px;
+        }
+
+        #LoginBody form #inputsDiv {
+            margin-bottom: auto;
+            margin-top: 100px;
+            gap: 50px;
+        }
+
+        #LoginBody form .inputDiv {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+            #LoginBody form .inputDiv input {
+                width: 320px;
+                border-radius: 5px;
+                outline: none;
+                border: 0px;
+                box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+                height: 40px;
+                padding-left: 10px;
+                font-size: 16px;
+            }
+
+            #LoginBody form .inputDiv label {
+                color: #fcfcfc
+            }
+
+        #LoginBody form #loginButton {
+            flex: 1;
+        }
+
+            #LoginBody form #loginButton input {
+                width: 120px;
+                font-size: 18px;
+                border-radius: 5px;
+                background: #fcfcfc;
+                color: #000;
+                font-size: 16px;
+                padding: 10px;
+                border: 0px;
+                outline: none;
+                cursor: pointer;
+                text-align: center;
+                font-weight: 600;
+                box-shadow: 0px 0px 18px 0px rgba(255, 255, 255, 0.5);
+            }
+
+.formContainerHome {
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: auto;
+    padding: 50px;
+}
+
+#form2 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: fit-content;
+    gap: 40px;
+    flex-wrap: wrap;
+    /margin-left: -60px;
+    /
+}
+
+    #form2 div {
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        padding: 10px;
+        text-align: center;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+    }
+
+        #form2 div label {
+            height: 50%;
+        }
+
+    #form2 .aspNetHidden {
+        width: 0px;
+        height: 0px;
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+    }
+
+    .Ayhaga{
+        display: flex;
+        flex-direction: row;
+    }
